@@ -154,7 +154,7 @@ with open("emails.txt", "r") as fd:
                  driver.quit()
             except NoSuchElementException:  
                 os.system('cls')
-                print(f"{yellow}[Error] An error occured while Creating a Account Reasons are [Names you have entered in emails.txt is taken ")
+                print(f"{yellow}[Error] An error occured while Creating a Account Reasons are [Names you have entered in emails.txt is taken] ")
                 time.sleep(2)
                 print
                 pass 
